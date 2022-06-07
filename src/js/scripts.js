@@ -28,13 +28,13 @@
     ) {
       $('#eb-logo').attr(
         'src',
-        'src/images/logos/ebrains_logos_yellow_green-black.png'
+        'src/images/logos/1_EBRAINS General Logo_Landscape_Color.png'
       )
       $('.fixed-top').addClass('top-nav-collapse')
     } else {
       $('#eb-logo').attr(
         'src',
-        'src/images/logos/ebrains_logos_yellow_green-white.png'
+        'src/images/logos/3_EBRAINS General Logo_Landscape_Color+White.png'
       )
       $('.fixed-top').removeClass('top-nav-collapse')
     }
