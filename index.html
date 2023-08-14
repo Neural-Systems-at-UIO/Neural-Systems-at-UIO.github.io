@@ -148,8 +148,9 @@
 								<br>
 								<br>
 								<p class="p-heading p-x-large"><span id="js-rotating">Register, Visualise, Analyse</span>
-								<br>spatial registration for open science</p>
-								<a class="btn-solid-lg page-scroll" href="https://ebrains-workbench.apps.hbp.eu">Launch the Workbench</a>
+								<br>Spatial Registration for Open Science</p>
+								<a class="btn-solid-lg page-scroll" style="width:15rem" href="#online">Learn more</a>
+								<a class="btn-solid-lg page-scroll" style="width:15rem" href="https://ebrains-workbench.apps.hbp.eu">Launch the Workbench</a>
 							</div>
 						</div> <!-- end of col -->
 					</div> <!-- end of row -->
@@ -400,9 +401,9 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-7 vertical-center" style="display: flex;align-items: center; ">
-				<div class="image-container" style="width:28rem">
-                            <img class="img-fluid center-block" src="src/images/NutilQ_Plots_2.png">
-                        </div> <!-- end of image-container -->
+						<video loop autoplay="autoplay" muted style="height: 17rem;padding-top: -100px;">
+							<source src="src/videos/ilastik.mp4">
+						</video>
 					
 					</div>
 					<div class="col-lg-5">
@@ -411,18 +412,15 @@
 							<h2>
 								ilastik
 							</h2>
-							<p> You will need to extract your features-of-interest from the images using a tool such as ilastik, then you are ready to transform your data into atlas space using Nutil.
+							<p> You will need to extract your features-of-interest from the images using a tool such as ilastik, then you are ready to transform your data into atlas space.
 							<ul>
 								<li>
-                                Contains many utilities for image file preprocessing.
+								Tool for interactive image classification, segmentation and analysis using supervised machine learning.  
 								</li><li>
-                                Analyse your data with respect to atlas brain regions.
+								Interactively train your classifier for your feature-of-interest, e.g. cells or markers of pathology.   
 								</li>
 								<li>
-								Generate detailed reports and plot charts.
-								</li>
-																<li>
-									Generate object coordinate output. 
+								Export segmentations for use in Nutil.
 								</li>
 								<li>
 								Available both online and offline.
@@ -454,13 +452,13 @@
 							<h2>
 								Nutil
 							</h2>
-							<p> You will need to extract your features-of-interest from the images using a tool such as ilastik, then you are ready to transform your data into atlas space using Nutil.
+							<p> Once you have registered your section images to the atlas and segmented the features to be quantified, you are ready to transform your data into atlas space using Nutil.
 							<ul>
 								<li>
 								Contains many utilities for image file preprocessing.
 								</li>
 								<li>
-								Analyse your data with respect to atlas brain regions
+								Analyse your data with respect to atlas brain regions.
 								</li>
 								<li>
 								Generate detailed reports, plot charts and point clouds.
@@ -552,26 +550,41 @@
 							<h2>
 								Offline Tools
 							</h2>
-							<p>Download these tools to get started with your own analysis</p> 
+							<p>Download these tools to get started with your own analysis.</p> 
 			
 							</p>
 							
 							<div class="text-container center-btn-cont" style="margin-top:3vh;">    
 								<a class="text-center btn-solid-reg page-scroll" 
-								   href="https://www.nitrc.org/projects/quicknii" style="width:7.5rem">QuickNII</a>
+								   href="https://www.nitrc.org/projects/quicknii" style="width:11.5rem">QuickNII</a>
 					
 							
 								<a class="text-center btn-solid-reg page-scroll" 
-								   href="https://www.nitrc.org/projects/visualign/" style="width:7.5rem">VisuAlign</a>
+								   href="https://www.nitrc.org/projects/visualign/" style="width:11.5rem">VisuAlign</a>
 					
 						 
-								<a class="text-center btn-solid-reg page-scroll" 
-								   href="https://www.nitrc.org/projects/nutil/" style="width:7.5rem">Nutil</a>
+
+
+
 							</div> <!-- end of button-container -->
-							<div class="text-container center-btn-cont" style="margin-top:1.5vh;">    
+							<div class="text-container center-btn-cont" style="margin-top:1vh;">    
 								<a class="text-center btn-solid-reg page-scroll" 
-								   href="https://quint-workflow.readthedocs.io" style="width:23rem;background-color: #2fd052;border-color: #2fd052;">Read The Docs</a>
+								   href="https://www.ilastik.org/" style="width:11.5rem">ilastik</a>
+					
+							
+								<a class="text-center btn-solid-reg page-scroll" 
+								   href="https://www.nitrc.org/projects/nutil" style="width:11.5rem">Nutil</a>
+					
+						 
+
+
+
 							</div> <!-- end of button-container -->
+							<div class="text-container center-btn-cont" style="margin-top:1vh;">    
+								<a class="text-center btn-solid-reg page-scroll" 
+								   href="https://quint-workflow.readthedocs.io" style="width:23rem;background-color: #2fd052;border-color: #2fd052;">User Documentation</a>
+							</div> <!-- end of button-container -->
+
 
 						</div> <!-- end of text-container -->
 					</div> <!-- end of col -->
@@ -580,16 +593,16 @@
 							<h2>
 								Online Workbench
 							</h2>
-							<p> Or launch the workbench for cloud based spatial anchoring and analysis</p> 
+							<p> Or launch the workbench for spatial anchoring and analysis.</p> 
 			
 							</p>
 							<div class="text-container center-btn-cont" style="margin-top:3vh;">    
 								<a class="text-center btn-solid-reg page-scroll" 
 								   href="https://ebrains-workbench.apps.hbp.eu" style="width:23rem;background-color: #89de45;border-color: #89de45;">Launch The Workbench</a>
 							</div> <!-- end of button-container -->
-							<div class="text-container center-btn-cont" style="margin-top:1.5vh;">    
+							<div class="text-container center-btn-cont" style="margin-top:1vh;">    
 								<a class="text-center btn-solid-reg page-scroll" 
-								   href="https://quint-webtools.readthedocs.io" style="width:23rem;background-color: #2fd052;border-color: #2fd052;">Read The Docs</a>
+								   href="https://quint-webtools.readthedocs.io" style="width:23rem;background-color: #2fd052;border-color: #2fd052;">User Documentation</a>
 							</div> <!-- end of button-container -->
 						</div> <!-- end of text-container -->
 					</div> <!-- end of col -->
@@ -680,7 +693,7 @@
 						<div class="row">
 							<div class="col-lg-12">
 								<div style="text-align:center; margin-bottom:10px" 
-									 class="section-title">PAPERS WHO USE QUINT</div>
+									 class="section-title">PAPERS USING QUINT FOR ANALYSIS</div>
 								<h2>QUINT USERS</h2>
 								<p class="p-heading">
 								
