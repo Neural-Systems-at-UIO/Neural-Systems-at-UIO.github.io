@@ -168,7 +168,7 @@
 						<div class="text-container">
 							<div class="section-title">OBJECTIVES</div>
 							<h2>
-								To register data from the brain to a common coordinate space.
+								To register all data from the brain to a common coordinate space.
 							</h2>
 							<p>
 							In coordination with other parts of the EBRAINS organisation we have several long-term objectives:
@@ -238,7 +238,7 @@
 								</li>
 								<li class="media">
 									<i class="fas fa-square"></i>
-									<div class="media-body">Perform spatial analysis of your labelled data.</div>
+									<div class="media-body">Perform spatial analysis of labelled features such as cells.</div>
 								</li>
 								<li class="media">
 									<i class="fas fa-square"></i>
@@ -282,10 +282,11 @@
 								<ul>
 
 								<li>
-                                The QUINT workflow combines the use of QuickNII and VisuAlign for atlas-registration, ilastik for feature extraction, Nutil for spatial analysis and Meshview for viewing results.
+                                The QUINT workflow combines tools for atlas-registration and feature extraction with tools for performing spatial analysis and viewing results.
 								</li>
+
 								<li>
-                                Tools designed in collaboration with neuroanatomists.
+                                The tools are designed in collaboration with neuroanatomists.
 								</li>
 								
 								<li>
@@ -366,7 +367,7 @@
 							<h2>
 								Visualign
 							</h2>
-							<p> Since slide mounted sections often contain small deformations the initial fit to the atlas will not be perfect. This is why we built Visualign, a second step after QuickNII which allows non-linear refinement of the atlas-registration. 
+							<p> Since slide mounted sections often contain small deformations the initial fit to the atlas will not be perfect. This is why we built Visualign, which allows non-linear refinement of the atlas-registration. 
 							<ul>
 								<li>
                                 Simple user interface
@@ -375,7 +376,7 @@
                                 Supports both rat and mouse atlases
 								</li>
 								<li>
-									Available both online and offline.
+									Available both offline and online.
 								</li>
 						
 							</ul>
@@ -394,7 +395,6 @@
 		<!-- end of monitors -->
 		<hr style="width:100%;">
 
-		
 		<!-- Monitors -->
 		<div id="monitors" class="basic-1">
 			<div class="container">
@@ -407,9 +407,9 @@
 					</div>
 					<div class="col-lg-5">
 						<div class="text-container">
-							<div class="section-title">Spatial analysis</div>
+							<div class="section-title">Feature Extraction</div>
 							<h2>
-								Nutil
+								ilastik
 							</h2>
 							<p> You will need to extract your features-of-interest from the images using a tool such as ilastik, then you are ready to transform your data into atlas space using Nutil.
 							<ul>
@@ -435,6 +435,11 @@
 			</div> <!-- end of container -->
 		</div> <!-- end of basic-1 -->
 		<!-- end of monitors -->
+
+
+		
+
+
 		
 
 		<hr style="width:100%;">
@@ -445,23 +450,23 @@
 				<div class="row">
 					<div class="col-lg-6">
 						<div class="text-container">
-							<div class="section-title"> Visualisation</div>
+							<div class="section-title"> Spatial analysis</div>
 							<h2>
-								MeshView
+								Nutil
 							</h2>
-							<p> MeshView allows you to display point clouds in the 3D atlas space.
+							<p> You will need to extract your features-of-interest from the images using a tool such as ilastik, then you are ready to transform your data into atlas space using Nutil.
 							<ul>
 								<li>
-                                Orbiting view with toggleable opaque/transparent/hidden atlas parcellation meshes.
+								Contains many utilities for image file preprocessing.
 								</li>
 								<li>
-                                Rendering of cut surfaces of the atlas.
+								Analyse your data with respect to atlas brain regions
 								</li>
 								<li>
-								Rendering of point clouds.
+								Generate detailed reports, plot charts and point clouds.
 								</li>
 																<li>
-									Compatible with Nutil analysis output.
+								Available both online and offline.
 								</li>
 								
 							</ul>
@@ -469,17 +474,69 @@
 						</div> <!-- end of text-container -->
 				</div> <!-- end of col -->
 				<div class="col-lg-3 vertical-center" style="display: flex;align-items: center;">
+					<div class="image-container" >
+						<img class="img-fluid center-block" src="src/images/NutilQ_Plots_2.png" style="width:50rem">
 
-					<video loop autoplay="autoplay" muted style="height: 20rem;padding-top: -100px;">
-						<source src="src/videos/MeshView.mp4">
-					</video>
 				</div> <!-- end of col -->
-				
+
 			</div> <!-- end of row -->
 		</div> <!-- end of container -->
 	</div> <!-- end of basic-1 -->
+
 	<!-- end of monitors -->
 	<hr style="width:100%;">
+
+
+
+			<!-- Monitors -->
+			<div id="monitors" class="basic-1">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-7 vertical-center" style="display: flex;align-items: center; ">
+							<video loop autoplay="autoplay" muted style="height: 17rem;padding-top: -100px;">
+								<source src="src/videos/MeshView.mp4">
+							</video>
+						
+						</div>
+						<div class="col-lg-5">
+							<div class="text-container">
+								<div class="section-title">Visualisation</div>
+								<h2>
+									Meshview
+								</h2>
+								<p> Meshview allows you to display point clouds in 3D atlas space.
+								<ul>
+									<li>
+									Orbiting view with toggleable opaque/transparent/hidden atlas parcellation meshes.
+									</li><li>
+									Rendering of cut surfaces of the atlas.
+									</li>
+									<li>
+									Rendering of point clouds.
+									</li>
+																	<li>
+										Compatible with point clouds from the Nutil software. 
+									</li>
+								</ul>
+								</p>
+							</div> <!-- end of text-container -->
+						</div> <!-- end of col -->
+					</div> <!-- end of row -->
+				</div> <!-- end of container -->
+			</div> <!-- end of basic-1 -->
+			<!-- end of monitors -->
+	
+	
+			
+	
+	
+			
+	
+			<hr style="width:100%;">
+
+	
+	
+
 
 		<!-- Monitors -->
 		<div id="getstarted" class="basic-2">
